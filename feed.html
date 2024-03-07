@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HuskyPost Feed</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>HuskyPost Feed</h1>
+    <div id="posts">
+        </div>
+    <h2>Create a Post</h2>
+    <form id="post-form">
+        <label for="post-text">Your Post:</label>
+        <textarea id="post-text" name="post-text" rows="5" placeholder="Share your thoughts anonymously..."></textarea>
+        <br>
+        <label for="post-category">Category:</label>
+        <select id="post-category" name="post-category">
+            <option value="politics">Politics</option>
+            <option value="movies">Movies</option>
+            <option value="questions">Questions</option>
+            <option value="other">Other</option>
+        </select>
+        <br>
+        <button type="submit">Post Anonymously</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
